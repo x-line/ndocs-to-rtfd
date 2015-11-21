@@ -45,7 +45,7 @@ Constructor
 Methods
 ----------------------
 ================================= ========================================
-String ``GetMessage()``           Gets the 'Hello, World message'.
+*String* **GetMessage() **          Gets the 'Hello, World message'.
 ================================= ========================================
 
 
