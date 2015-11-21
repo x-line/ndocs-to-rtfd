@@ -85,7 +85,7 @@ Main
 ================================= =======================================================
 *void* **Main(String[] args)**    Mains the specified arguments. Dirk customization.
 ================================= =======================================================
-Arguments:                        *System.String[] **Args**  The arguments.
+Arguments:                        *System.String[]*  **Args**  The arguments.
 ================================= =======================================================
  
 
