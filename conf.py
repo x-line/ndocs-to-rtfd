@@ -118,6 +118,24 @@ todo_include_todos = False
 if not on_rtd:
 	html_theme_path = ["_themes", ]
 	html_theme = "sphinx_rtd_theme"
+else:
+ html_context = { 
+    'css_files': [
+        'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
+        'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
+          '_static/custom.css',
+    ],  
+    'script_files':[
+	    "https://media.readthedocs.org/javascript/jquery/jquery-2.0.3.min.js",
+	    "https://media.readthedocs.org/javascript/jquery/jquery-migrate-1.2.1.min.js" ,
+	    "https://media.readthedocs.org/javascript/underscore.js",
+	    "https://media.readthedocs.org/javascript/doctools.js",
+	    "https://media.readthedocs.org/javascript/readthedocs-doc-embed.js",
+	    '_static/custom.js',
+    ]
+  } 
+
+ 
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
