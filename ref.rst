@@ -30,14 +30,14 @@ Constructor
 **Code Examples**
 
 .. code-block:: csharp
-   :linenothreshold: 10
    :caption: C#
+   :name: csharp_HelloWorldRunner_ctr
 
    HelloWorldRunner mythingy = new HelloWorldRunner();
 
 .. code-block:: vbnet
-   :linenothreshold: 10
    :caption: VB.Net
+   :name: vbnet_HelloWorldRunner_ctr
 
    HelloWorldRunner mythingy = new HelloWorldRunner()
  
@@ -52,15 +52,15 @@ String ``GetMessage()``           Gets the 'Hello, World message'.
 **Code Examples**
 
 .. code-block:: csharp
-   :linenothreshold: 10
    :caption: C#
+   :name: csharp_HelloWorldRunner_GetMessage
 
    var mythingy = new HelloWorldRunner();
    Console.WriteLine(mythingy.GetMessage());
 
 .. code-block:: vbnet
-   :linenothreshold: 10
    :caption: VB.Net
+   :name: vbnet_HelloWorldRunner_GetMessage
 
    dim mythingy = new HelloWorldRunner()
    Console.WriteLine("Output: " + mythingy.GetMessage())
