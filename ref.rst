@@ -1,6 +1,6 @@
-=======================
+#######################
 Object Reference
-=======================
+#######################
 
 The ``HelloWorld`` namespace is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
 
@@ -24,7 +24,7 @@ Constructor
 ----------------------
 
 ======================== ===========================================================================================
-``HelloWorldRunner()``   Initializes a new instance of the `HelloWorldRunner <HelloWorldRunner Class>`_ class.
+**HelloWorldRunner()**   Initializes a new instance of the `HelloWorldRunner Class <#helloworldrunner-class>`_.
 ======================== ===========================================================================================
 
 **Code Examples**
@@ -47,9 +47,12 @@ Methods
 
 GetMessage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Gets the 'Hello, World message'.
+================================= =======================================================
+*String* **GetMessage()**         Gets the 'Hello, World message'.
+================================= =======================================================
 
-- ``*String* **GetMessage()``
+
+
 
 **Code Examples**
 
@@ -80,10 +83,12 @@ Methods
 Main
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ================================= =======================================================
-void ``Main(String[] args)``      Mains the specified arguments. Dirk customization.
+*void* **Main(String[] args)**    Mains the specified arguments. Dirk customization.
+================================= =======================================================
+Arguments:                        *System.String[] **Args**  The arguments.
 ================================= =======================================================
  
 
-**Arguments**
 
-- **Args** ``System.String[]`` The arguments.
+
+

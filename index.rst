@@ -6,19 +6,9 @@
 Welcome to ndocs-to-rtfd's documentation!
 =========================================
 
-Contents:
-
 .. toctree::
    :maxdepth: 2
+   :caption: IronPDF Documentation
  
-   ref
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   ref.rst
+   http://ironsoftware.com/ironpdf/

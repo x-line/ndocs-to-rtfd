@@ -51,6 +51,7 @@ master_doc = 'index'
 project = u'ndocs-to-rtfd'
 copyright = u'2015, Iron Software'
 author = u'Iron Software'
+__jake_link = u'http://ironsoftware.com/ironpdf'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -110,7 +111,9 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#html_theme = 'alabaster'
+html_theme_path = ["_themes", ]
+html_theme = "sphinx_rtd_theme_iron"
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -174,7 +177,7 @@ html_static_path = ['_static']
 #html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
