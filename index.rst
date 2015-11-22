@@ -7,8 +7,10 @@ Welcome to ndocs-to-rtfd's documentation!
 =========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
    :caption: IronPDF Documentation
  
    ref.rst
-   http://ironsoftware.com/ironpdf/
+   Website <http://ironsoftware.com/ironpdf/>
+   GitHub Examples <http://ironsoftware.com/downloads/todo>
+   Download <http://ironsoftware.com/downloads/todo>

@@ -294,7 +294,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   (master_doc, 'ndocs-to-rtfd', u'ndocs-to-rtfd Documentation',
-   author, 'ndocs-to-rtfd', 'One line description of project.',
+   author, 'ndocs-to-rtfd', 'ndocs-to-rtfd  in a nutshell',
    'Miscellaneous'),
 ]
 
