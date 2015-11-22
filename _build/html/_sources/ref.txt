@@ -13,6 +13,9 @@ The ``HelloWorld`` namespace is simply dummy text of the printing and typesettin
 Classes
 *******
 
+----------
+
+
 HelloWorldRunner Class
 ======================
 
@@ -42,6 +45,8 @@ Constructor
    HelloWorldRunner mythingy = new HelloWorldRunner()
  
 
+----------
+
 Methods
 ----------------------
 
@@ -70,12 +75,15 @@ GetMessage
    dim mythingy = new HelloWorldRunner()
    Console.WriteLine("Output: " + mythingy.GetMessage())
  
+----------
 
 HelloWorldProgram Class
 ==========================
 - Namespace: HelloWorld
 
-Class Program.
+A program class.
+
+----------
 
 Methods
 ----------------------
